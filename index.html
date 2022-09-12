@@ -43,5 +43,45 @@
     <ul>
         <li>Doesn't work on android w/ chrome. Number is entire url</li>
     </ul>
+    from <a href="https://bradorego.com/test/sms.html">https://bradorego.com/test/sms.html</a>
+    <p>
+        <a href="sms:5552345678">Phone only</a>
+    </p>
+    <p>
+        <a href="sms:+15552345678">Phone(+1) only</a>
+    </p>
+    <p>
+        <a href="sms:?body=Hello,%20world">Body only</a>
+    </p>
+    <p>
+        <a href="sms:;body=Hello,%20world">;body only</a>
+    </p>
+    <p>
+        <a href="sms:5552345678?body=Hello%20World">Phone and ?body</a>
+    </p>
+    <p>
+        <a href="sms:+15552345678?body=Hello%20World">Phone(+1) and ?body</a>
+    </p>
+    <p>
+        <a href="sms:5552345678;body=Hello%20World">Phone(+1) and ;body</a>
+    </p>
+    <p>
+        <a href="sms://5552345678">Phone only (sms://)</a>
+    </p>
+    <p>
+        <a href="sms://+15552345678">Phone(+1) only (sms://)</a>
+    </p>
+    <p>
+        <a href="sms://5552345678?body=Hello,%20World">Phone and ?body (sms://)</a>
+    </p>
+    <p>
+        <a href="sms://+15552345678?body=Hello,%20World">Phone(+1) and ?body (sms://)</a>
+    </p>
+    <p>
+        <a href="sms://5552345678;body=Hello,%20World">Phone and ;body (sms://)</a>
+    </p>
+    <p>
+        <a href="sms://+15552345678;body=Hello,%20World">Phone(+1) and ;body (sms://)</a>
+    </p>
   </body>
 </html>
